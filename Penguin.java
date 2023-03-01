@@ -61,9 +61,6 @@ public class Penguin extends Bird implements Swim {
         return this.depths;
     }
 
-    /**
-     * get out of water, must be on surface
-     */
     @Override
     public void getOut() {
         if (this.swimming && this.depths == 0) {
